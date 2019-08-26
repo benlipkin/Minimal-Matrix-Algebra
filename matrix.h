@@ -12,7 +12,7 @@ public:
     ~Matrix();
     Matrix& operator=(const Matrix& src);
     double& operator()(int row, int col);
-    double operator()(int row,int col) const;
+    double operator()(int row, int col) const;
     friend Matrix operator+(const Matrix &mat1, const Matrix &mat2);
     friend Matrix operator-(const Matrix &mat1, const Matrix &mat2);
     friend Matrix operator*(const Matrix &mat1, const Matrix &mat2);
